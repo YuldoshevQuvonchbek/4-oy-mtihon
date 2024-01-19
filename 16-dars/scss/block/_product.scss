@@ -1,0 +1,126 @@
+.Product_box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+.product_contianer {
+  text-align: center;
+}
+.product_item {
+  width: 298px;
+  border: 2px solid #f6f6f6;
+  overflow: hidden;
+  background-color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+
+  &:hover {
+    background-color: #f6f6f61b;
+  }
+}
+
+.Product_img {
+  margin-bottom: 9px;
+  background-color: #f6f6f6;
+  border-radius: 0 0 10px 10px;
+}
+.product_img2 {
+  width: 301px;
+  height: 276px;
+  object-fit: contain;
+}
+
+.Product_mony {
+  color: #40bfff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 180%;
+  letter-spacing: 0.5px;
+}
+
+.Product_mony2 {
+  color: #9098b1;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+  text-decoration: line-through;
+}
+
+.Product_mony3 {
+  color: #fb7181;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 150%;
+  letter-spacing: 0.5px;
+}
+.Product_title {
+  padding-left: 29px;
+  padding-right: 29px;
+  color: #223263;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 6px;
+
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 300px;
+}
+.product_btn_box {
+  text-align: center;
+  padding-top: 30px;
+}
+.product_btn {
+  background-color: #fff;
+  color: #33a0ff;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+  border-bottom: 3px solid #33a0ff;
+  margin-bottom: 115px;
+}
+.product_item_btn {
+  width: 30px;
+  height: 30px;
+  object-fit: contain;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.product_item_btn {
+  border-radius: 50%;
+  &:hover {
+    box-shadow: 0 0 2px 2px #40bfff;
+    transform: scale(1.05);
+  }
+}
+.Product_mony3 {
+  text-wrap: nowrap;
+}
+
+.product_item_btn2 {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  object-fit: contain;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  border-radius: 5px 0 0 5px;
+  top: 5px;
+  right: 2px;
+  &:hover {
+    box-shadow: 0 0 2px 2px #fb7181;
+    transform: scale(1.05);
+  }
+}

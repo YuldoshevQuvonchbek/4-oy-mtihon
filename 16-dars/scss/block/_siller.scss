@@ -1,0 +1,31 @@
+.seller {
+  padding-top: 329px;
+}
+
+.seller_list {
+  display: flex;
+  gap: 73px;
+  justify-content: center;
+  margin-bottom: 23px;
+}
+
+.seller_title {
+  color: #22262a;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.seller_link {
+  color: #262626;
+  background-color: transparent;
+  border: none;
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.seller_link:hover {
+  color: #33a0ff;
+  transition: 0.3s;
+}

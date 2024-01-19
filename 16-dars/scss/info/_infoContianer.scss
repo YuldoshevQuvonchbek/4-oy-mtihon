@@ -1,0 +1,147 @@
+.info_contianer {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.info__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info__item__cart__img {
+  max-width: 500px;
+  height: auto;
+}
+.info__item__cart2 {
+  max-width: 600px;
+}
+.info__item__cart2_text1 {
+  color: #223263;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.info__item__cart2_text2 {
+  color: #22262a;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.info__item__cart2_text4 {
+  color: #40bfff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 180%;
+  margin-bottom: 10px;
+  margin-bottom: 10px;
+}
+.info__item__cart2_text4 span {
+  color: #22262a;
+  font-size: 18px;
+  font-weight: 700;
+}
+.info__item__cart2_text5 {
+  color: #fb7181;
+  font-size: 16px;
+  font-weight: 700;
+}
+.info__item__cart2_text5 span {
+  color: #22262a;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+//carzinka
+
+.list12 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carzinka_section {
+  background-color: #7e7ec8b7;
+}
+.list12__text {
+  color: #33a0ff;
+  font-size: 18px;
+  font-weight: 400;
+}
+.list12__text1 {
+  color: #c1c8ce;
+  font-size: 14px;
+  font-weight: 400;
+}
+.list12__text2 {
+  color: #262626;
+  font-size: 18px;
+  font-weight: 400;
+}
+.carzinka_cart_box_praduct,
+.carzinka_cart_box1_text {
+  color: #22262a;
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 500px;
+}
+.carzinka_cart_box {
+  padding-top: 50px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #f6f7f845;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carzinka_cart_box1 {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.carzinka__cart {
+  padding-top: 62px;
+  padding-bottom: 53px;
+}
+.carzinka_cart_box12 {
+  padding-top: 30px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid #f6f7f845;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.carzinka_cart_box123 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.carzinka_cart_box_praduct111 {
+  width: auto;
+  height: 94px;
+}
+.delete_btn {
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
+}
+
+.carzinka__cart__box {
+  width: 374px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carzinka__cart__box__text {
+  color: #22262a;
+  font-size: 30px;
+  font-weight: 500;
+}
+.divlay_nine {
+  display: none;
+}

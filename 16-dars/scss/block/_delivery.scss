@@ -1,0 +1,43 @@
+.delivery_contianer {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding-left: 90px;
+  padding-right: 90px;
+  margin-bottom: 120px;
+}
+.delivery_contianer__text {
+  color: #22262a;
+  font-size: 27px;
+  font-weight: 500;
+  display: flex;
+}
+
+.delivery_contianer__box::before {
+  content: "";
+  width: 100.756px;
+  height: 80.86px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 63px;
+  background-image: url(/16-dars/img/delliver.svg);
+}
+.delivery_contianer__box2::before {
+  content: "";
+  width: 100.756px;
+  height: 80.86px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  margin-bottom: 64px;
+  background-image: url(/16-dars/img/delliver2.svg);
+}
+.delivery_contianer__box3::before {
+  content: "";
+  width: 100.756px;
+  height: 80.86px;
+  margin-bottom: 60px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(/16-dars/img/dellier3.svg);
+}
